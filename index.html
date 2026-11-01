@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brimzo Games</title>
+<meta name="description" content="Brimzo Games — small, fast, one-tap mobile games.">
+<style>
+:root{--bg:#07060f;--fg:#f4f1ff;--dim:#8d86b5;--cyan:#29f0ff;--pink:#ff3df2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+main{max-width:760px;margin:0 auto;padding:56px 16px}
+h1{font-size:clamp(28px,6vw,40px);margin:0 0 6px}
+.lead{color:var(--dim);margin:0 0 40px}
+.game{display:flex;gap:18px;align-items:center;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:20px}
+.icon{flex:none;width:72px;height:72px;border-radius:18px;background:#07060f;display:grid;place-items:center;box-shadow:0 0 18px rgba(41,240,255,.35)}
+.game h2{margin:0;font-size:22px}
+.game p{margin:4px 0 10px;color:var(--dim)}
+.links a{color:var(--cyan);margin-right:16px;text-decoration:none;font-weight:600}
+.links a:hover{text-decoration:underline}
+footer{margin-top:48px;color:var(--dim);font-size:14px}
+footer a{color:var(--dim)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Brimzo Games</h1>
+  <p class="lead">Small, fast, one-tap games for Android.</p>
+
+  <div class="game">
+    <div class="icon" aria-hidden="true">
+      <svg width="56" height="56" viewBox="0 0 108 108"><circle cx="54" cy="54" r="29" fill="none" stroke="#29f0ff" stroke-opacity=".4" stroke-width="2"/><circle cx="54" cy="54" r="18" fill="none" stroke="#29f0ff" stroke-opacity=".4" stroke-width="2"/><circle cx="54" cy="54" r="9" fill="#29f0ff" fill-opacity=".2" stroke="#29f0ff" stroke-width="2.4"/><path d="M77.7 37.4A29 29 0 0 1 82.6 49" stroke="#ff3df2" stroke-width="5" stroke-linecap="round" fill="none"/><circle cx="33.5" cy="35" r="4.5" fill="#29f0ff"/></svg>
+    </div>
+    <div>
+      <h2>Neon Orbit</h2>
+      <p>Tap to switch orbit, dodge the light, and beat real players in ghost battles.</p>
+      <div class="links"><a href="neon-orbit/privacy-policy.html">Privacy policy</a></div>
+    </div>
+  </div>
+
+  <footer>Contact: <a href="mailto:brimzo.games@gmail.com">brimzo.games@gmail.com</a></footer>
+</main>
+</body>
+</html>
